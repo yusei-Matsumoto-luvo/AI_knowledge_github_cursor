@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 環境変数ファイル
+.env
+.env.*
+!.env.example
+
+# ログファイル
+*.log
+
+# 一時ファイル
+tmp/
+temp/
+downloads/
+
+# プロジェクト特有の除外ファイル
+test_downloads/
+*.zip
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ/IDE固有のファイル
+.idea/
+.vscode/
+*.swp
+*.swo 
